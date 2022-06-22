@@ -29,7 +29,7 @@ common:
           name: it-dep-secret
           tag:  0.0.2
         tiller:
-          registry: gcr.io
+          registry: fishead/gcr.io
           name: kubernetes-helm/tiller
           tag: v2.12.3
       secret:
